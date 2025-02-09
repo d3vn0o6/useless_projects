@@ -31,8 +31,9 @@ class Calculator:
         print(f'Pour {qt_prod}g: {qt_bica}g de Bica')
 
 
-App = Main()
-App.run()
+if __name__ == "__main__":
+  app = Calculator()
+  app.run()
         
         
         
