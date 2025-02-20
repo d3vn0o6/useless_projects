@@ -3,9 +3,9 @@
 # First version 
 
 class Calculator:
-  def __init__(self, qt_prod, ratio=0.333):
-    self.qt_prod = qt_prod
-    self.def_ratio = ratio
+  def __init__(self):
+    self.qt_prod = None
+    self.def_ratio = 0.333
     self.qt_bica = None
     
     def convert_qt_prod(self, qt_prod):
